@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/converteTemperatura.css">
+        <script type="text/javascript" src="scripts/converteTemperatura.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+            <h1 class="page-title">Conversor de temperatura</h1>
+            <p class="page-subtitle"> Descubra os valores de °C, °F e K</p>
+            
+
+            <div class="perguntas">
+                <label for="moeda">Insira o valor em °C</label><br>
+                <input type="number" id="celcius" value="0" min="0" size="2" /><br>
+                <button type="submit" onclick="ConverterParaCelcius()">Converter para °C</button><br>
+            </div>
+            <div class="perguntas">
+                <label for="moeda">Insira o valor em °F</label><br>
+                <input type="number" id="fahrenheit" value="0" min="0" size="2" /><br>
+                <button type="submit" onclick="ConverterParaFahrenheit()">Converter para °F</button><br>
+            </div>
+            <div class="perguntas">
+                <label for="moeda">Insira o valor em K</label><br>
+                <input type="number" id="kelvin" value="0" min="0" size="2" /><br>
+                <button type="submit" onclick="ConverterParaKelvin()">Converter para K</button><br> 
+            </div>
+            
+
+            
+
+
+
+            <h2 id="valorConvertido">Resultado irá aparecer aqui</h2>
+        </div>
+        <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <a href="index.html"><img src="http://pconect.com.br/admin/modules/paginas/ckeditor/plugins/imageuploader/uploads/1881ba99c.png" class="paginaDiferente1"></a>
+        <a href="calculaDistancia.html"><img src="https://i.pinimg.com/originals/90/c6/5a/90c65afdac81eb1ec8fa4f4c84e724ee.png" class="paginaDiferente2"></a>  
+    </body>
+</html>

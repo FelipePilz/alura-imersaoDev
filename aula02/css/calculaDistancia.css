@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
-    background-image: url("https://i.fbcd.co/products/original/6608b9ecff858d3b1ccb13ca4276eff237707584212c7a493fc2c031c18b2112.jpg");
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2019/01/06/jupiter.-wallpaper_.jpg");
     background-color: #000000;
     background-position: inherit;
     background-size: cover;
@@ -9,7 +9,6 @@ body {
   }
   
   .container {
-    
     text-align: center;
     margin: 200px auto;
     width: 50%;
@@ -56,7 +55,27 @@ body {
   .page-logo {
     width: 200px;
   }
-  
+  .paginaDiferente1{
+    width: 60px;
+    position: absolute;
+    top: 10%;
+    right: 60%;
+  }
+
+  .paginaDiferente2{
+    width: 60px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+  }
+  .paginaDiferente1, .paginaDiferente2{
+    border-radius: 10px;
+    border: 5px solid #f8d928;
+  }
+  .paginaDiferente1:hover, .paginaDiferente2:hover{
+    background-color: rgba(0, 0, 0, 0.411);
+  }
+
   .alura-logo {
     width: 40px;
     position: absolute;

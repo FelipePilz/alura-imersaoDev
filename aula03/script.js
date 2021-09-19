@@ -1,8 +1,8 @@
+var tentativas = 1;
+var numeroSecreto = parseInt(Math.floor(Math.random() * 11));
 
-//elementoResultado.innerHTML
-
-  function Chutar() {
-     let numeroSecreto = Math.floor(Math.random() * 11);
+  function chutar() {
+     
      let numeroChutado = parseInt(document.getElementById("valor").value);
 
      while(numeroChutado < 0 || numeroChutado > 10 || isNaN(numeroChutado)){
@@ -10,6 +10,18 @@
           return;
      }
      
-  
+     let elementoResultado = document.getElementById("resultado");
+     while(numeroChutado != numeroSecreto){
+          tentativas ++;
+          if(numeroChutado < numeroSecreto){
+               elementoResultado.innerHTML = "Tente um número maior!";
+               return;
+          }else{
+               elementoResultado.innerHTML = "Tente um número menor";
+               return;
+          }
+          
+     }
+     elementoResultado.innerHTML = "Você descobriu o número em "+tentativas+" tentativas!";
      }
 

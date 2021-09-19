@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: "Roboto Mono", monospace;
+      min-height: 600px;
+      background-color: #2b2c2c;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    
+    .container {
+      text-align: center;
+      margin: 10px auto;
+      width: 90%;
+      height: 500px auto;
+      border: 5px solid #cf2727;
+      padding: 10px;
+      border-radius: 5px;
+      min-height: 500px;
+  
+    }
+    .container button{
+      padding: 10px 5px; 
+      border-radius: 15px;
+      border: none;
+      color: white;
+      font-style: bold;
+      font-size: 20px;
+      text-decoration: none;
+      background-color: #cf2727;
+      cursor: pointer;
+    }
+  
+    .container button:hover {
+      background-color: #c75d5d;
+      transition-duration: 0.5s;
+      color: black;
+    }
+    .acoes{
+        border-bottom: 5px dotted #cf2727;
+        padding-bottom: 10px;
+    }
+
+    .page-title {
+      color: #ffffff;
+      margin: 0 0 5px;
+    }
+    
+    .page-subtitle {
+      color: #ffffff;
+      margin-top: 16px;
+    }
+    
+    .page-logo {
+      width: 200px;
+    }
+  
+    .alura-logo {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    @media (max-height: 500px) {
+      body {
+        min-height: 800px;
+      }
+    }
+    
+    img {
+        border-radius: 5px;
+        margin: 5px;
+        max-height: 250px;
+        max-width: 250px;
+      }
+
+    input {
+      margin: 4px;
+      padding: 6px;
+      border-radius: 5px;
+    }
+    
+    button {
+      margin-top: 12px;
+      padding: 4px 8px;
+      border-radius: 10px;
+      background: #ffffff;
+    }
+    #filmes{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    #filmes div {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 250px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+
+    }
+
+    #filmes div img{
+        width: 200px;
+        height: 200px;
+    }

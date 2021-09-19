@@ -1,3 +1,5 @@
+# Aula 03 - Imersão Dev Alura
+
 Criar uma calculadora de média e aprender o que são variáveis e como realizar operações!
 
 - Entender as diferenças entre HTML, CSS e JavaScript;

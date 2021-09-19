@@ -1,3 +1,5 @@
+# Aula 02 - Imersão Dev Alura
+
 Criar um conversor de moedas, onde você conseguirá transformar em reais um produto que estiver com o preço em dólares!\
 
 - Interagir com usuário para receber os preços a serem convertidos;

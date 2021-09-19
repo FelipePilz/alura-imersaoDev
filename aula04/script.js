@@ -1,13 +1,13 @@
 var matrizImagem = [];
-var tamanho = 0;
+var tamanho = parseInt(0);
+console.log(tamanho);
 
-function adicionaImagem() {
+function adicionaImagem() { 
     matrizImagem[tamanho] = document.getElementById("linkImagem").value;
     if(matrizImagem[tamanho] == "" || matrizImagem[tamanho] < 0 || matrizImagem[tamanho] == 0 || matrizImagem[tamanho] > 0){
         alert("Link inválido, por favor insira um link válido.");
         return;
     }
-    console.log(matrizImagem[tamanho]);
 
 
     for(var i = 0; i < tamanho; i++){ //Verificar se tem link repetido
@@ -36,26 +36,30 @@ function adicionaImagem() {
 
     var button = document.createElement("button");
         
-        button.id = "botaoImagem"+tamanho;
+        
+        //ver onclicks
+        button.id = tamanho;
         var id = document.getElementById("mostraImagem"+tamanho);
         id.appendChild(button);
 
-        button.onclick = "remove()";
-        var onclick = document.getElementById("mostraImagem"+tamanho);
-        onclick.appendChild(button);
-        
         button.innerText =  "Remover";
         var innerText = document.getElementById("mostraImagem"+tamanho)
         innerText.appendChild(button);
+        
 
-        //ver onclick
+        var remover = document.getElementById("mostraImagem"+tamanho);
 
+        var qualRemover = tamanho;
+            button.onclick = function () {   
+                matrizImagem.splice(qualRemover, 1)
+                remover.remove();
+                alert("Imagem removida com sucesso!");         
+        };
+        
+        var onclick = document.getElementById("mostraImagem"+tamanho);
+        onclick.appendChild(button);
+ 
 
     alert("Imagem adicionada com sucesso!");
     tamanho++;//final
 }
-
-function remove(){
-    alert("Oi");
-}
-  

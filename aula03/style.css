@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
   }
   
   .container {
@@ -39,10 +40,13 @@ body {
     cursor: pointer;
   }
 
-  .container button:hover{
+  .container button:hover {
     background-color: #9fd1e9;
     transition-duration: 0.5s;
     color: black;
+  }
+  .container button:active ~ #resultado{
+    color: rgba(190, 190, 190, 0.425);
   }
   
   .page-title {
@@ -59,6 +63,13 @@ body {
     width: 200px;
   }
   
+  #resultado{
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;    
+    margin-top: 16px;
+  }
+
   .alura-logo {
     width: 40px;
     position: absolute;
@@ -83,11 +94,5 @@ body {
     padding: 4px 8px;
     border-radius: 10px;
     background: #ffffff;
-  }
-  
-  .resultado {
-    color: #ffffff;
-    text-align: center;
-    margin-top: 16px;
   }
   

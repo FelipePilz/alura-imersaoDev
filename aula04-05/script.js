@@ -4,6 +4,7 @@ console.log(tamanho);
 
 function adicionaImagem() { 
     matrizImagem[tamanho] = document.getElementById("linkImagem").value;
+    document.getElementById("linkImagem").value = "";
     if(matrizImagem[tamanho] == "" || matrizImagem[tamanho] < 0 || matrizImagem[tamanho] == 0 || matrizImagem[tamanho] > 0){
         alert("Link inválido, por favor insira um link válido.");
         return;

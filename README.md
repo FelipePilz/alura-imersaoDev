@@ -13,4 +13,4 @@ Esse repositório é diretamente para a **3º semana da Imersão Dev** realizada
 - Uma galera de filmes com upload de imagens...
 
 _Todos os projetos foram realizados em HTML, CSS e JavaScript. <br>
-O HTML e CSS eram dados prontos, porém eu realizei algumas modificações para condizer com o resultado que eu queria;_
+O HTML e CSS eram dados prontos, porém eu realizei algumas modificações para condizer com o resultado que eu desejava;_

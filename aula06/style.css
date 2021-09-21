@@ -5,17 +5,16 @@
   body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+    background-image: url("https://i.redd.it/nhwngd25xfg31.jpg");
     background-color: #111;
     background-size: 100%;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
   }
   
   .container {
     text-align: center;
-    padding: 20px;
-    height: 100vh;
+    margin-top: 250px;
   }
   
   .page-title {
@@ -42,7 +41,9 @@
   table {
     border: 2px solid white;
     border-collapse: collapse;
-    width:100%;
+    width: 50%;
+    margin: auto;
+    background-color: #111;
   }
   
   h1 {
@@ -58,5 +59,11 @@
 
   button{
     margin: 2px;
+  }
+
+  .fotoPerfil{
+    height: 65px;
+    width: auto;
+    background-color: #ffffff5b;
   }
 

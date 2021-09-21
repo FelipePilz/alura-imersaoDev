@@ -1,14 +1,16 @@
 var informacoesJogadores= [{
-    nome: "Rafael",
-    vitorias: 2,
-    empates: 1,
-    derrotas: 1,
+    nome: 'Liquid',
+    avatar: 'https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62',
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
     pontos: 0
 },{
-    nome: 'Carlos',
-    vitorias: 1,
-    empates: 1,
-    derrotas: 2,
+    nome: 'SG ESports',
+    avatar: 'https://pbs.twimg.com/profile_images/1355306358002872326/LKjDmosb_400x400.jpg',
+    vitorias: 0,
+    empates: 0,
+    derrotas: 0,
     pontos: 0
 }];
 
@@ -16,7 +18,7 @@ function exibeJogadorTela(informacoesJogadores){
     var elemento = "";
     for(var i = 0; i <  informacoesJogadores.length; i++){
         elemento += "<tr>";
-        elemento += "<td>"+informacoesJogadores[i].nome+"</td>";
+        elemento += "<td>"+informacoesJogadores[i].nome+"<br><img class='fotoPerfil' src='"+informacoesJogadores[i].avatar+"'></td>";
         elemento += "<td>"+informacoesJogadores[i].vitorias+"</td>";
         elemento += "<td>"+informacoesJogadores[i].empates+"</td>";
         elemento += "<td>"+informacoesJogadores[i].derrotas+"</td>";

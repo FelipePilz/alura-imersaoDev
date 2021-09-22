@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb3d9bd8-7787-4928-8dcf-947cdb02ce6c/d6v1tez-1c9fd45d-5ea2-4303-8ef6-6a41cfebfb2f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiM2Q5YmQ4LTc3ODctNDkyOC04ZGNmLTk0N2NkYjAyY2U2Y1wvZDZ2MXRlei0xYzlmZDQ1ZC01ZWEyLTQzMDMtOGVmNi02YTQxY2ZlYmZiMmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.i7sUEjRnZk9Q8_mH3PQqktNK-SvdcowDxdQHir6qqMQ");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+input{
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button, .button-jogar {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #dac8ab;
+}
+
+h2 {
+    color: white;
+}
+
+#carta-jogador, #carta-maquina {
+    background-color: #a57a3981;
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 400px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2; 
+    text-align: left;
+}
+
+
+.carta-status input {
+    margin: 15px 15px;
+   }
+
+.resultado-final {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto auto;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+.versus{
+    height: 80px;
+}
+
+#resultado{
+    height: 50px;
+    font-size: 35px;
+    color: rgb(253, 213, 176);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: auto;
+}
+
+.resultado{
+    padding-top: 120px;
+}
+

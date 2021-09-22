@@ -58,13 +58,37 @@
   }
 
   button{
-    margin: 2px;
+    background-color: #ff4538;
+    margin: 5px;
+    cursor: pointer;
+    border: 0px;
+    padding: 4px 8px;
+    border-radius: 1px;
+    color: white;
+    height: 25px;
+  }
+  
+  button:hover{
+    background-color: #ff746b;
+    color: black;
   }
 
   .fotoPerfil{
-    height: 65px;
+    height: 80px;
     width: auto;
     background-color: #000000;
     border: 1px solid white;
   }
+
+  .botaoReset{
+    height: 55px;
+    margin-top: 25px;
+  }
+
+  .botaoReset img{
+    
+    width: 46px;
+  }
+
+
 

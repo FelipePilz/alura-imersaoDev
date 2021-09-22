@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Imersão Dev - Aula 07</title>
+    </head>
+    <body>
+        <div class="container">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"alt="">
+            <h1 class="page-title">Super Trunfo de Dota 2!</h1>
+            <button onclick="sortearCarta()" id="btnSortear">Sortear o seu herói</button>
+            <form id="form">
+                <div class="wrapper">
+                    <div>
+                        <div id="carta-jogador">
+                            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div class="resultado">
+                        <div id="resultado"></div><br>
+                        <img class="versus" src="https://files.passeidireto.com/38439bb6-8046-4be0-a51e-b4a341831e70/38439bb6-8046-4be0-a51e-b4a341831e70.png">
+                    </div>
+                    <div>
+                        <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+                    </div>
+                </div>
+                <div class="opcoes" id="opcoes"></div>
+                <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Batalhar</button>
+                
+            </form>
+        </div>
+    </body>
+</html>

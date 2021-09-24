@@ -1,0 +1,194 @@
+body{
+    background: linear-gradient(236.85deg, #20170a 27.26%, #ba8f6f 96.03%);/*Mudei*/
+    font-family: Roboto;
+    background-attachment: fixed;
+    margin: auto auto;
+  /* Center and scale the image nicely */
+}
+
+.container{
+    background: #F7F7F7;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgba(16, 16, 16, 0.42);
+    color: #1C1C1C;
+    padding: 64px 64px 32px 64px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto{
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    margin-left: 16px;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.tema{
+    margin-left: auto;
+}
+.tema button{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #F7F7F7;
+    border: 2px solid #0f0f0f6b;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;  
+}
+
+.tema button:hover{
+    background: #333439;
+    color: #F7F7F7;
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    margin-top: 32px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+.projetos-titulo{
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 0;
+}
+
+.projetos-item{
+    list-style-type: none;
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projetos-item a{
+    color:#1C1C1C;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.dark{
+    background: linear-gradient(236.85deg, #332921 27.26%, #1b1107 96.03%);
+    background-attachment: fixed;
+}
+
+.dark .container{
+    background: #333439;
+    color: #F7F7F7;
+}
+
+.dark .projetos {
+    color:#1C1C1C;
+}
+
+.dark .tema button{
+    color: #F7F7F7;
+    background: #333439;
+    border: 2px solid #F7F7F7;
+}
+
+.dark .tema button:hover{
+    background: #F7F7F7;
+    color: #1C1C1C;
+}
+
+/*DROPDOWN*/
+
+/* Style The Dropdown Button */
+
+
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus{
+    color: #F7F7F7 !important;
+    font-weight: 550 !important;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    background-color: #F7F7F7;
+    min-height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(16, 16, 16, 0.42);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgba(16, 16, 16, 0.42);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Botoes sociais*/
+.social-button{
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-media{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.image-media{
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(16, 16, 16, 0.42);
+}
+
+.image-media:hover{
+    box-shadow: 0px 2px 2px rgba(16, 16, 16, 0.42);
+    opacity: 50%;
+    height: 87%;
+    margin: auto auto;
+}

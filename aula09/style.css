@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(236.85deg, #20170a 27.26%, #ba8f6f 96.03%);/*Mudei*/
+    width: 1440px; 
+    height: 1024px; /*Adicionei*/
+    font-family: Roboto;
+    margin: auto auto; /*Adicionei*/
+}
+
+.container{
+    background: #F7F7F7;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #2f200e;
+    color: #1C1C1C;
+    padding: 64px 64px 32px 64px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto{
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    margin-left: 16px;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-button{
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-media{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.image-media{
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px #2f200e80;
+}
+
+.image-media:hover{
+    box-shadow: 0px 2px 2px #2f200e7a;
+    opacity: 50%;
+    height: 87%;
+    margin: auto auto;
+}
